@@ -1,0 +1,134 @@
+[
+  {
+    "id": "r001",
+    "title": "$25 Amazon Gift Card",
+    "category": "gift-cards",
+    "points": 2500,
+    "icon": "gift",
+    "description": "Spend it on anything at Amazon.com - millions of items, fast shipping included.",
+    "popular": true,
+    "featured": true,
+    "expiry": null
+  },
+  {
+    "id": "r002",
+    "title": "$50 Visa Prepaid Card",
+    "category": "gift-cards",
+    "points": 5000,
+    "icon": "card",
+    "description": "Use anywhere Visa is accepted, online or in store.",
+    "popular": true,
+    "featured": true,
+    "expiry": null
+  },
+  {
+    "id": "r003",
+    "title": "Round-trip Flight Voucher",
+    "category": "travel",
+    "points": 25000,
+    "icon": "plane",
+    "description": "Up to $300 credit toward any domestic round-trip flight booked through our travel portal.",
+    "popular": false,
+    "featured": true,
+    "expiry": "2027-12-31"
+  },
+  {
+    "id": "r004",
+    "title": "Hotel Night Stay",
+    "category": "travel",
+    "points": 12000,
+    "icon": "hotel",
+    "description": "One complimentary night at any partner hotel (3-star and above, 2,000+ locations).",
+    "popular": false,
+    "featured": false,
+    "expiry": "2027-06-30"
+  },
+  {
+    "id": "r005",
+    "title": "Wireless Earbuds",
+    "category": "merchandise",
+    "points": 8000,
+    "icon": "headphones",
+    "description": "Premium noise-cancelling wireless earbuds with 24-hour battery life.",
+    "popular": true,
+    "featured": false,
+    "expiry": null
+  },
+  {
+    "id": "r006",
+    "title": "Smart Water Bottle",
+    "category": "merchandise",
+    "points": 3500,
+    "icon": "bottle",
+    "description": "Temperature-tracking 24 oz smart bottle with hydration reminders.",
+    "popular": false,
+    "featured": false,
+    "expiry": null
+  },
+  {
+    "id": "r007",
+    "title": "Cooking Class (Online)",
+    "category": "experiences",
+    "points": 4500,
+    "icon": "chef",
+    "description": "Live virtual cooking class with a professional chef - invite up to 4 guests.",
+    "popular": true,
+    "featured": true,
+    "expiry": null
+  },
+  {
+    "id": "r008",
+    "title": "Spa Day Voucher",
+    "category": "experiences",
+    "points": 9500,
+    "icon": "spa",
+    "description": "$150 credit toward any spa treatment at 500+ partner locations nationwide.",
+    "popular": false,
+    "featured": false,
+    "expiry": "2027-03-31"
+  },
+  {
+    "id": "r009",
+    "title": "Plant a Tree",
+    "category": "charity",
+    "points": 500,
+    "icon": "tree",
+    "description": "Donate points to plant a tree in your name through our reforestation partner.",
+    "popular": false,
+    "featured": false,
+    "expiry": null
+  },
+  {
+    "id": "r010",
+    "title": "Donate to Food Bank",
+    "category": "charity",
+    "points": 1000,
+    "icon": "food",
+    "description": "Your 1,000 points feeds a family for one week through our charity network.",
+    "popular": false,
+    "featured": false,
+    "expiry": null
+  },
+  {
+    "id": "r011",
+    "title": "$10 Coffee Shop Card",
+    "category": "gift-cards",
+    "points": 1000,
+    "icon": "coffee",
+    "description": "Valid at 5,000+ participating coffee shops nationwide.",
+    "popular": true,
+    "featured": false,
+    "expiry": null
+  },
+  {
+    "id": "r012",
+    "title": "Fitness Tracker Band",
+    "category": "merchandise",
+    "points": 11000,
+    "icon": "watch",
+    "description": "Track steps, heart rate, sleep, and calories with this sleek fitness band.",
+    "popular": false,
+    "featured": false,
+    "expiry": null
+  }
+]
