@@ -1,0 +1,38 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="nav-logo__icon">star</span>
+      <span class="nav-logo__text">{{ site.title }}</span>
+      <p class="footer-tagline">{{ site.description }}</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="{{ '/dashboard/' | relative_url }}">Dashboard</a></li>
+          <li><a href="{{ '/rewards/' | relative_url }}">Rewards Catalog</a></li>
+          <li><a href="{{ '/history/' | relative_url }}">Transaction History</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Account</h4>
+        <ul>
+          <li><a href="{{ '/profile/' | relative_url }}">My Profile</a></li>
+          <li><a href="{{ '/login/' | relative_url }}">Sign In</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="mailto:{{ site.rewards_platform.support_email }}">Contact Us</a></li>
+          <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>{{ site.rewards_platform.company_name }}. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
