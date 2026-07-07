@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<section class="reward-detail container">
+  <div class="reward-detail__header">
+    <a href="{{ '/rewards/' | relative_url }}" class="btn btn--ghost btn--sm">&larr; Back to Rewards</a>
+    <span class="reward-badge reward-badge--{{ page.category | downcase | replace: ' ', '-' }}">{{ page.category }}</span>
+  </div>
+
+  <div class="reward-detail__body card">
+    <div class="reward-detail__image">
+      {% if page.image %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
+      {% else %}
+      <div class="reward-detail__image-placeholder">
+        <span class="reward-icon reward-icon--lg">{{ page.icon | default: "gift" }}</span>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="reward-detail__info">
+      <h1 class="reward-detail__title">{{ page.title }}</h1>
+      <p class="reward-detail__points">
+        <span class="points-value">{{ page.points }}</span>
+        <span class="points-label">{{ site.rewards_platform.currency_symbol }} Points Required</span>
+      </p>
+      <p class="reward-detail__description">{{ page.description }}</p>
+
+      {% if page.expiry %}
+      <p class="reward-detail__expiry">Offer expires: <strong>{{ page.expiry }}</strong></p>
+      {% endif %}
+
+      <div class="reward-detail__content">
+        {{ content }}
+      </div>
+
+      <div class="reward-detail__actions">
+        <button class="btn btn--primary btn--lg redeem-btn" data-reward="{{ page.title }}" data-points="{{ page.points }}">
+          Redeem Now
+        </button>
+        <button class="btn btn--ghost btn--lg wishlist-btn" data-reward="{{ page.title }}">
+          Save to Wishlist
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
