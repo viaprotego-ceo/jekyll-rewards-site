@@ -1,0 +1,60 @@
+title: RewardHub
+description: Your personal rewards and loyalty platform
+baseurl: "/jekyll-rewards-site"
+url: "https://viaprotego-ceo.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Theme
+remote_theme: jekyll/minima
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+
+# Site settings
+rewards_platform:
+  currency_name: "Points"
+  currency_symbol: "★"
+  company_name: "RewardHub"
+  support_email: "support@rewardhub.example.com"
+
+# Collections
+collections:
+  rewards:
+    output: true
+    permalink: /rewards/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "rewards"
+    values:
+      layout: "reward"
